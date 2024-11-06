@@ -1,0 +1,5 @@
+<!-- Navigation -->
+
+<slot></slot>
+
+<!-- Footer -->

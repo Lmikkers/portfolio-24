@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --normalFont: "Roboto", sans-serif;
+    --headerFont: "DM Mono", monospace;
+    --detailFont: "IBM Plex Mono", monospace;
+
+    --fontColor: #292929;
+
+    /* color sprints */
+    --sprint13: #2B4176;
+    --sprint13Text: #FF7F3B;
+    --sprint14: #FFE6BA;
+    --sprint14Text: #E42626;
+}
+body {
+    font-family: var(--normalFont)
+}
