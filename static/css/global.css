@@ -4,18 +4,27 @@
     box-sizing: border-box;
 }
 :root {
+    /* fonts */
     --normalFont: "Roboto", sans-serif;
-    --headerFont: "DM Mono", monospace;
-    --detailFont: "IBM Plex Mono", monospace;
+    --headerFont: "Climate Crisis", sans-serif;
+    /* --detailFont: "IBM Plex Mono", monospace; */
+
+    /* colors */
+    --mainColor: #0D421B;
+    --secondColor: #F6EFDD;
+    --whiteColor: #ffffff;
 
     --fontColor: #292929;
 
-    /* color sprints */
-    --sprint13: #2B4176;
-    --sprint13Text: #FF7F3B;
-    --sprint14: #FFE6BA;
-    --sprint14Text: #E42626;
 }
 body {
     font-family: var(--normalFont)
+}
+a {
+    text-decoration: none;
+    color: var(--fontColor);
+}
+h1, h2, h3 {
+    font-family: var(--headerFont);
+    letter-spacing: .5rem;
 }
