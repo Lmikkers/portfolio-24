@@ -25,10 +25,14 @@
 
 <style>
     nav {
-        width: 100vw  ;
         position: fixed;
+        width: 100vw  ;
         display: flex;
         justify-content: space-between;
+        padding: 1rem;
+    }
+    nav a {
+        color: var(--secondColor);
     }
 
     footer {
