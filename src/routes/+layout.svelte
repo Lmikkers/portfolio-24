@@ -46,5 +46,6 @@
         justify-content: center;
         gap: 1rem;
         list-style: none;
+        color: var(--mainColor);
     }
 </style>
